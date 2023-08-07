@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Borelogs.shp</name>
+	<open>1</open>
+	<Schema name="Borelogs" id="S_Borelogs_SSD">
+		<SimpleField type="string" name="Name"><displayName>&lt;b&gt;Name&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="Borehole_N"><displayName>&lt;b&gt;Borehole N&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="E"><displayName>&lt;b&gt;E&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="N"><displayName>&lt;b&gt;N&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="GL_m_PWD_"><displayName>&lt;b&gt;GL(m-PWD)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="__feet_"><displayName>&lt;b&gt;0(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="__feet__2"><displayName>&lt;b&gt;5(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet_"><displayName>&lt;b&gt;10(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet_"><displayName>&lt;b&gt;15(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__2"><displayName>&lt;b&gt;20(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__2"><displayName>&lt;b&gt;25(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__3"><displayName>&lt;b&gt;30(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__3"><displayName>&lt;b&gt;35(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__4"><displayName>&lt;b&gt;40(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__4"><displayName>&lt;b&gt;45(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__5"><displayName>&lt;b&gt;50(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__5"><displayName>&lt;b&gt;55(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__6"><displayName>&lt;b&gt;60(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__6"><displayName>&lt;b&gt;65(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__7"><displayName>&lt;b&gt;70(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__7"><displayName>&lt;b&gt;75(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__8"><displayName>&lt;b&gt;80(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__8"><displayName>&lt;b&gt;85(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_0_feet__9"><displayName>&lt;b&gt;90(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_5_feet__9"><displayName>&lt;b&gt;95(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_00_feet_"><displayName>&lt;b&gt;100(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_05_feet_"><displayName>&lt;b&gt;105(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_10_feet_"><displayName>&lt;b&gt;110(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_15_feet_"><displayName>&lt;b&gt;115(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="long" name="_20_feet_"><displayName>&lt;b&gt;120(feet)&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Borelogs/Name]</td></tr>
+  <tr><td><b>Borehole N</b></td><td>$[Borelogs/Borehole_N]</td></tr>
+  <tr><td><b>E</b></td><td>$[Borelogs/E]</td></tr>
+  <tr><td><b>N</b></td><td>$[Borelogs/N]</td></tr>
+  <tr><td><b>GL(m-PWD)</b></td><td>$[Borelogs/GL_m_PWD_]</td></tr>
+  <tr><td><b>0(feet)</b></td><td>$[Borelogs/__feet_]</td></tr>
+  <tr><td><b>5(feet)</b></td><td>$[Borelogs/__feet__2]</td></tr>
+  <tr><td><b>10(feet)</b></td><td>$[Borelogs/_0_feet_]</td></tr>
+  <tr><td><b>15(feet)</b></td><td>$[Borelogs/_5_feet_]</td></tr>
+  <tr><td><b>20(feet)</b></td><td>$[Borelogs/_0_feet__2]</td></tr>
+  <tr><td><b>25(feet)</b></td><td>$[Borelogs/_5_feet__2]</td></tr>
+  <tr><td><b>30(feet)</b></td><td>$[Borelogs/_0_feet__3]</td></tr>
+  <tr><td><b>35(feet)</b></td><td>$[Borelogs/_5_feet__3]</td></tr>
+  <tr><td><b>40(feet)</b></td><td>$[Borelogs/_0_feet__4]</td></tr>
+  <tr><td><b>45(feet)</b></td><td>$[Borelogs/_5_feet__4]</td></tr>
+  <tr><td><b>50(feet)</b></td><td>$[Borelogs/_0_feet__5]</td></tr>
+  <tr><td><b>55(feet)</b></td><td>$[Borelogs/_5_feet__5]</td></tr>
+  <tr><td><b>60(feet)</b></td><td>$[Borelogs/_0_feet__6]</td></tr>
+  <tr><td><b>65(feet)</b></td><td>$[Borelogs/_5_feet__6]</td></tr>
+  <tr><td><b>70(feet)</b></td><td>$[Borelogs/_0_feet__7]</td></tr>
+  <tr><td><b>75(feet)</b></td><td>$[Borelogs/_5_feet__7]</td></tr>
+  <tr><td><b>80(feet)</b></td><td>$[Borelogs/_0_feet__8]</td></tr>
+  <tr><td><b>85(feet)</b></td><td>$[Borelogs/_5_feet__8]</td></tr>
+  <tr><td><b>90(feet)</b></td><td>$[Borelogs/_0_feet__9]</td></tr>
+  <tr><td><b>95(feet)</b></td><td>$[Borelogs/_5_feet__9]</td></tr>
+  <tr><td><b>100(feet)</b></td><td>$[Borelogs/_00_feet_]</td></tr>
+  <tr><td><b>105(feet)</b></td><td>$[Borelogs/_05_feet_]</td></tr>
+  <tr><td><b>110(feet)</b></td><td>$[Borelogs/_10_feet_]</td></tr>
+  <tr><td><b>115(feet)</b></td><td>$[Borelogs/_15_feet_]</td></tr>
+  <tr><td><b>120(feet)</b></td><td>$[Borelogs/_20_feet_]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Name</b></td><td>$[Borelogs/Name]</td></tr>
+  <tr><td><b>Borehole N</b></td><td>$[Borelogs/Borehole_N]</td></tr>
+  <tr><td><b>E</b></td><td>$[Borelogs/E]</td></tr>
+  <tr><td><b>N</b></td><td>$[Borelogs/N]</td></tr>
+  <tr><td><b>GL(m-PWD)</b></td><td>$[Borelogs/GL_m_PWD_]</td></tr>
+  <tr><td><b>0(feet)</b></td><td>$[Borelogs/__feet_]</td></tr>
+  <tr><td><b>5(feet)</b></td><td>$[Borelogs/__feet__2]</td></tr>
+  <tr><td><b>10(feet)</b></td><td>$[Borelogs/_0_feet_]</td></tr>
+  <tr><td><b>15(feet)</b></td><td>$[Borelogs/_5_feet_]</td></tr>
+  <tr><td><b>20(feet)</b></td><td>$[Borelogs/_0_feet__2]</td></tr>
+  <tr><td><b>25(feet)</b></td><td>$[Borelogs/_5_feet__2]</td></tr>
+  <tr><td><b>30(feet)</b></td><td>$[Borelogs/_0_feet__3]</td></tr>
+  <tr><td><b>35(feet)</b></td><td>$[Borelogs/_5_feet__3]</td></tr>
+  <tr><td><b>40(feet)</b></td><td>$[Borelogs/_0_feet__4]</td></tr>
+  <tr><td><b>45(feet)</b></td><td>$[Borelogs/_5_feet__4]</td></tr>
+  <tr><td><b>50(feet)</b></td><td>$[Borelogs/_0_feet__5]</td></tr>
+  <tr><td><b>55(feet)</b></td><td>$[Borelogs/_5_feet__5]</td></tr>
+  <tr><td><b>60(feet)</b></td><td>$[Borelogs/_0_feet__6]</td></tr>
+  <tr><td><b>65(feet)</b></td><td>$[Borelogs/_5_feet__6]</td></tr>
+  <tr><td><b>70(feet)</b></td><td>$[Borelogs/_0_feet__7]</td></tr>
+  <tr><td><b>75(feet)</b></td><td>$[Borelogs/_5_feet__7]</td></tr>
+  <tr><td><b>80(feet)</b></td><td>$[Borelogs/_0_feet__8]</td></tr>
+  <tr><td><b>85(feet)</b></td><td>$[Borelogs/_5_feet__8]</td></tr>
+  <tr><td><b>90(feet)</b></td><td>$[Borelogs/_0_feet__9]</td></tr>
+  <tr><td><b>95(feet)</b></td><td>$[Borelogs/_5_feet__9]</td></tr>
+  <tr><td><b>100(feet)</b></td><td>$[Borelogs/_00_feet_]</td></tr>
+  <tr><td><b>105(feet)</b></td><td>$[Borelogs/_05_feet_]</td></tr>
+  <tr><td><b>110(feet)</b></td><td>$[Borelogs/_10_feet_]</td></tr>
+  <tr><td><b>115(feet)</b></td><td>$[Borelogs/_15_feet_]</td></tr>
+  <tr><td><b>120(feet)</b></td><td>$[Borelogs/_20_feet_]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>Borelogs</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Borelogs_SSD">
+					<SimpleData name="Name">Dumuria Khal</SimpleData>
+					<SimpleData name="Borehole_N">BH01</SimpleData>
+					<SimpleData name="E">731861</SimpleData>
+					<SimpleData name="N">2461640</SimpleData>
+					<SimpleData name="GL_m_PWD_">-2.5</SimpleData>
+					<SimpleData name="__feet_">0</SimpleData>
+					<SimpleData name="__feet__2">3</SimpleData>
+					<SimpleData name="_0_feet_">2</SimpleData>
+					<SimpleData name="_5_feet_">2</SimpleData>
+					<SimpleData name="_0_feet__2">2</SimpleData>
+					<SimpleData name="_5_feet__2">2</SimpleData>
+					<SimpleData name="_0_feet__3">3</SimpleData>
+					<SimpleData name="_5_feet__3">3</SimpleData>
+					<SimpleData name="_0_feet__4">3</SimpleData>
+					<SimpleData name="_5_feet__4">4</SimpleData>
+					<SimpleData name="_0_feet__5">3</SimpleData>
+					<SimpleData name="_5_feet__5">3</SimpleData>
+					<SimpleData name="_0_feet__6">4</SimpleData>
+					<SimpleData name="_5_feet__6">-9999</SimpleData>
+					<SimpleData name="_0_feet__7">5</SimpleData>
+					<SimpleData name="_5_feet__7">-9999</SimpleData>
+					<SimpleData name="_0_feet__8">10</SimpleData>
+					<SimpleData name="_5_feet__8">-9999</SimpleData>
+					<SimpleData name="_0_feet__9">9</SimpleData>
+					<SimpleData name="_5_feet__9">-9999</SimpleData>
+					<SimpleData name="_00_feet_">39</SimpleData>
+					<SimpleData name="_05_feet_">-9999</SimpleData>
+					<SimpleData name="_10_feet_">25</SimpleData>
+					<SimpleData name="_15_feet_">-9999</SimpleData>
+					<SimpleData name="_20_feet_">29</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.24972741613357,22.24473556755839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<Style id="inline">
+				<IconStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</IconStyle>
+				<LineStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</LineStyle>
+				<PolyStyle>
+					<color>ffe7ebef</color>
+					<colorMode>normal</colorMode>
+				</PolyStyle>
+			</Style>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_Borelogs_SSD">
+					<SimpleData name="Name">Chakbara</SimpleData>
+					<SimpleData name="Borehole_N">BH01</SimpleData>
+					<SimpleData name="E">731970</SimpleData>
+					<SimpleData name="N">2462742</SimpleData>
+					<SimpleData name="GL_m_PWD_">-2.4</SimpleData>
+					<SimpleData name="__feet_">0</SimpleData>
+					<SimpleData name="__feet__2">2</SimpleData>
+					<SimpleData name="_0_feet_">1</SimpleData>
+					<SimpleData name="_5_feet_">1</SimpleData>
+					<SimpleData name="_0_feet__2">2</SimpleData>
+					<SimpleData name="_5_feet__2">1</SimpleData>
+					<SimpleData name="_0_feet__3">3</SimpleData>
+					<SimpleData name="_5_feet__3">3</SimpleData>
+					<SimpleData name="_0_feet__4">4</SimpleData>
+					<SimpleData name="_5_feet__4">4</SimpleData>
+					<SimpleData name="_0_feet__5">5</SimpleData>
+					<SimpleData name="_5_feet__5">6</SimpleData>
+					<SimpleData name="_0_feet__6">10</SimpleData>
+					<SimpleData name="_5_feet__6">-9999</SimpleData>
+					<SimpleData name="_0_feet__7">18</SimpleData>
+					<SimpleData name="_5_feet__7">-9999</SimpleData>
+					<SimpleData name="_0_feet__8">20</SimpleData>
+					<SimpleData name="_5_feet__8">-9999</SimpleData>
+					<SimpleData name="_0_feet__9">8</SimpleData>
+					<SimpleData name="_5_feet__9">-9999</SimpleData>
+					<SimpleData name="_00_feet_">10</SimpleData>
+					<SimpleData name="_05_feet_">-9999</SimpleData>
+					<SimpleData name="_10_feet_">12</SimpleData>
+					<SimpleData name="_15_feet_">-9999</SimpleData>
+					<SimpleData name="_20_feet_">13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>89.25094345661627,22.25466900030982,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
